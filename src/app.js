@@ -1,3 +1,4 @@
 const client = require('./settings.js')
+const { token } = require('./utils/constants.js')
 
-client.login(process.env.BOT_TOKEN)
+client.login(token)
